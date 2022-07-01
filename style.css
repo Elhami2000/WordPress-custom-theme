@@ -1,11 +1,12 @@
 /*
-Theme Name: teffl
-Text Domain: teffl
+Theme Name: TEFFL theme
+Theme URI: 
+Author: TEFFL Team
+Author URI: 
+Description: Theme for Wordpress web development
+Text Domain: TEFFL
 Version: 1.0
-Description: Theme for web development
-Tags: left-sidebar, responsive, fancy
-Author: Elhami Musliu
-Author URI:
+License: GNU General Public License v2 or later
 */
 
 :root {
@@ -154,11 +155,11 @@ h6 {
     font-weight: bold
 }
 
-.header .nav-item.active .a {
+.header .nav-item.active a {
     color: rgba(0, 0, 0, 0.5)
 }
 
-.header .nav-item.active .a:hover {
+.header .nav-item.active a:hover {
     text-decoration: none
 }
 
@@ -276,7 +277,7 @@ h6 {
     display: none
 }
 
-.blog-nav .a {
+.blog-nav a {
     background: var(--primary);
     color: #fff;
     font-size: 1rem;
@@ -285,11 +286,11 @@ h6 {
     position: relative
 }
 
-.blog-nav .a:hover {
+.blog-nav a:hover {
     background: var(--secondary);
 }
 
-.blog-nav .nav-link-prev {
+.blog-nav .nav-prev {
     border-right: 1px solid var(--secondary);
 }
 
